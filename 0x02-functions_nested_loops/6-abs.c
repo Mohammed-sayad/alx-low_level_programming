@@ -6,15 +6,20 @@
  * @j: the giving value
  * Return: value
  */
+
 int _abs(int j)
 {
 	if (j == 0)
 	{
 		return (0);
 	}
-else
+	else if (j > 0)
+	{
+		return (j);
+	}
+	else
 	{
 		return (j * -1);
 	}
-_putchar(0);
+	_putchar(10);
 }
