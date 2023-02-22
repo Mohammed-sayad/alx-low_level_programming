@@ -16,4 +16,5 @@ else
 	{
 		return (j * -1);
 	}
+_putchar(0);
 }
