@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * print_alphabet_x10 - Function
 * Description: Prints 10 lines of alphabet from a to z
