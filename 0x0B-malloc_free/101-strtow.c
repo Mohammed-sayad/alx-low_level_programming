@@ -74,3 +74,11 @@ char **strtow(char *str)
 			return (NULL);
 			}
 
+			for (j = 0; j < n; j++)
+				w_arr[i][j] = str[k++];
+
+			w_arr[i][j] = '\0';
+	}
+	w_arr[i] = NULL;
+	return (w_arr);
+}
